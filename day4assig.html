@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+        var friends=[
+            {
+                name:"pratheep",
+                place:"cbe",
+                meet:"clg",
+                ph:644
+            },
+            {
+                name:"sridhar",
+                place:"vkd",
+                meet:"phisics_lab",
+                ph:659
+
+            },
+            {
+                name:"yuvaraj",
+                place:"gmd",
+                meet:"first_meet",
+                ph:747
+            }
+        ]
+
+        for(i=0;i<friends.length;i++)
+        {
+            console.log(friends[i].name);
+            console.log(friends[i].ph)
+        }
+
+
+        friends.forEach(
+            function(c,i){
+                
+               if(i==1 ||i==2)
+               {
+                   console.log(c.meet,"  ",c.place,"  ",i)
+               }
+            
+            }
+
+        )
+
+
+
+
+
+
+
+    </Script>
+</body>
+</html>
